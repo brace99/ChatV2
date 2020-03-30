@@ -1,0 +1,77 @@
+
+@media screen and (max-width: 768px) {
+
+/*HEADER*/
+
+.navbar-brand {
+margin: 0px;
+}
+
+.navbar-brand img {
+width: 50px;
+height: 40px;
+}
+	
+.navbar-header {
+margin-left: 0px;
+}
+
+.navbar-header h2 {
+font-size: 1.6rem;
+}
+
+.nav-item i {
+margin-left: 0px;
+}
+
+.chat-container {
+display: block;
+height: 100%;
+}
+
+.chat-list {
+width: 100%;
+height: 20%;
+}
+
+.chat-message {
+padding: 20px 10px 5px 10px;
+}
+	
+.chat-text p {
+width: 225px;
+white-space: nowrap;
+overflow:hidden;
+text-overflow: ellipsis;
+}
+
+.chat-block {
+height: 80%;
+width: 100%;
+border-top: 1px solid #D3D3D3;
+}
+
+.message-block {
+=
+}
+
+.writtinh-block {
+height: %;
+}
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) and (min-width : 769px) {
+.chat-list {
+width: 33%;
+}
+
+.chat-message {
+padding: 10px 10px 5px 10px;
+}
+
+.chat-date {
+margin-left: 10px;
+}
+}
